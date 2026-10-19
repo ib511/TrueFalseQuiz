@@ -15,11 +15,26 @@
         android:text="כאן תופיע התוצאה"
         android:textSize="36sp" />
 
+    <TextView
+        android:id="@+id/tvExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="כאן תופיע ההסבר"
+        android:textSize="24sp" />
+
     <Button
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="חזרה לשאלה" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="לשאלה הבאה" />
+
 
 </LinearLayout>
